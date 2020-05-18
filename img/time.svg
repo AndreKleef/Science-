@@ -1,0 +1,13 @@
+<svg id="Group_54" data-name="Group 54" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <circle id="Ellipse_16" data-name="Ellipse 16" cx="2.5" cy="2.5" r="2.5" transform="translate(45.75 23.75)" fill="#fff"/>
+  <path id="Path_498" data-name="Path 498" d="M54,5H50.75V2.5a2.5,2.5,0,0,0-5,0V5H34.375V2.5a2.5,2.5,0,0,0-5,0V5H18.125V2.5a2.5,2.5,0,0,0-5,0V5H10A10.011,10.011,0,0,0,0,15V54A10.011,10.011,0,0,0,10,64H29.125a2.5,2.5,0,0,0,0-5H10a5.006,5.006,0,0,1-5-5V15a5.006,5.006,0,0,1,5-5h3.125v2.5a2.5,2.5,0,0,0,5,0V10h11.25v2.5a2.5,2.5,0,0,0,5,0V10H45.75v2.5a2.5,2.5,0,0,0,5,0V10H54a5.006,5.006,0,0,1,5,5V29.25a2.5,2.5,0,0,0,5,0V15A10.011,10.011,0,0,0,54,5Z" fill="#fff"/>
+  <path id="Path_499" data-name="Path 499" d="M285.125,270a15.125,15.125,0,1,0,15.125,15.125A15.142,15.142,0,0,0,285.125,270Zm0,25.25a10.125,10.125,0,1,1,10.125-10.125A10.136,10.136,0,0,1,285.125,295.25Z" transform="translate(-236.25 -236.25)" fill="#fff"/>
+  <path id="Path_500" data-name="Path 500" d="M377.125,335.125H376V332.5a2.5,2.5,0,0,0-5,0v5.125a2.5,2.5,0,0,0,2.5,2.5h3.625a2.5,2.5,0,0,0,0-5Z" transform="translate(-324.625 -288.75)" fill="#fff"/>
+  <circle id="Ellipse_17" data-name="Ellipse 17" cx="2.5" cy="2.5" r="2.5" transform="translate(34.875 23.75)" fill="#fff"/>
+  <circle id="Ellipse_18" data-name="Ellipse 18" cx="2.5" cy="2.5" r="2.5" transform="translate(24 34.625)" fill="#fff"/>
+  <circle id="Ellipse_19" data-name="Ellipse 19" cx="2.5" cy="2.5" r="2.5" transform="translate(13.125 23.75)" fill="#fff"/>
+  <circle id="Ellipse_20" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(13.125 34.625)" fill="#fff"/>
+  <circle id="Ellipse_21" data-name="Ellipse 21" cx="2.5" cy="2.5" r="2.5" transform="translate(13.125 45.5)" fill="#fff"/>
+  <circle id="Ellipse_22" data-name="Ellipse 22" cx="2.5" cy="2.5" r="2.5" transform="translate(24 45.5)" fill="#fff"/>
+  <circle id="Ellipse_23" data-name="Ellipse 23" cx="2.5" cy="2.5" r="2.5" transform="translate(24 23.75)" fill="#fff"/>
+</svg>
