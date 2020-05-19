@@ -57,6 +57,12 @@ button {
   color: #7B3886;
   font-size: 24px;
   background: transparent;
+  transition: 0.3s ease;
+
+  &:hover {
+    background: #DD1A50;
+    color: #fff;
+  }
 }
 
 // ============== variables =================
@@ -2575,6 +2581,8 @@ text {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 1;
   }
 
   &-title {
