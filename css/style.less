@@ -1511,6 +1511,14 @@ text {
     height: 100%;
     position: absolute;
     filter: blur(6px);
+
+    &_training {
+      background: url(../img/promo_training.jpg) no-repeat center / cover;
+    }
+
+    &_contacts {
+      background: url(../img/promo_contacts.jpg) no-repeat center / cover;
+    }
   }
 
   &__menu {
@@ -2124,11 +2132,6 @@ text {
     width: 50%;
     height: 1210px;
   }
-  
-  & .point img {
-    width: 32px;
-    height: 32px;
-  }
 
   &__block {
     width: 50%;
@@ -2176,6 +2179,11 @@ text {
   & .interesting__title-line {
     background: #fff;
   }
+}
+
+.point img {
+  width: 32px;
+  height: 32px;
 }
 
 .air {
@@ -2894,6 +2902,8 @@ text {
 
 
 .option_training {
+  position: relative;
+  overflow: hidden;
 
   &__container:after {
     left: 114px;
@@ -2986,6 +2996,99 @@ text {
     line-height: 1.2;
   }
 } 
+
+
+
+// --------------- CONTACTS -----------------
+
+
+
+.contacts {
+  padding: 120px 0 80px 0;
+  position: relative;
+  overflow: hidden;
+
+  &__item {
+
+    &:not(:last-child) {
+      margin-bottom: 80px;
+    }
+
+    &-title {
+      font-size: 48px;
+      color: #7B3886;
+      font-family: 'FuturaMediumC', sans-serif;
+    }
+  }
+
+  &__line {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+    &-icon {
+      width: 48px;
+      height: 48px;
+      margin-right: 30px;
+
+      &_map {
+        background: url(../img/icon_map.svg) no-repeat center / contain;
+      }
+
+      &_tel {
+        background: url(../img/icon_tel.svg) no-repeat center / contain;
+      }
+
+      &_email {
+        background: url(../img/icon_email.svg) no-repeat center / contain;
+      }
+    }
+
+    &-text {
+      font-size: 36px;
+      font-family: 'FuturaBookC', sans-serif;
+      color: #666;
+    }
+  } 
+
+  &__content {
+
+    &-tel {
+      font-size: 36px;
+      font-family: 'FuturaBookC', sans-serif;
+      color: #666;
+      padding-right: 10px;
+      transition: 0.3s ease;
+
+      &:hover {
+        color: #DD1A50;
+      }
+
+      &:not(:last-child):after {
+        content: '•';
+        color: #DD1A50;
+      }
+    }
+  }
+}
+
+.map_contacts {
+  clip-path: polygon(72% 160px, 100% 0, 100% 100%, 28% 84%, 0 100%, 0 0);
+  margin-bottom: -160px;
+  position: relative;
+  z-index: 1;
+
+  & .map__yandex {
+    width: 100%;
+    height: 895px;
+  }
+}
+
+.page-footer_contacts {
+  padding-top: 186px;
+  clip-path: polygon(29% 0, 100% 0, 100% 100%, 20% 100%, 0 100%, 0 0);
+
+}
 
 
 
