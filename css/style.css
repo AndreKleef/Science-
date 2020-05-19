@@ -2376,3 +2376,72 @@ text {
 .equipment__content-text {
   line-height: 1.3;
 }
+.option_training__container:after {
+  left: 114px;
+}
+.option_training__image {
+  width: 200px;
+  height: 250px;
+  margin-right: 50px;
+}
+.option_training__content {
+  width: 50%;
+}
+.option_training__content-button {
+  margin-top: 60px;
+}
+.option_training__item:nth-child(2n+2):after {
+  top: 135px;
+  left: 99px;
+  width: 26%;
+  height: 5px;
+}
+.option_training__item:nth-child(2n+2):not(:last-child):before {
+  top: 115px;
+  left: 99px;
+  width: 26%;
+  height: 5px;
+  padding-bottom: 17px;
+}
+.option_training__item:nth-child(2n+2) .option__image {
+  margin-right: 60px;
+}
+.as_form__checkbox {
+  display: none;
+}
+.as_form__agree {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.as_form__checkbox-custom {
+  position: relative;
+  background: url(../img/dot_red_static.svg) no-repeat center / contain;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.as_form__checkbox:checked + .as_form__checkbox-custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0;
+  background: url(../img/dot_red_active.svg) no-repeat center / contain;
+  cursor: pointer;
+}
+.as_form__checkbox-custom {
+  display: inline-block;
+  margin-right: 30px;
+}
+.as_form__check {
+  width: 87%;
+  font-size: 24px;
+  font-family: 'FuturaLightC', sans-serif;
+  color: #666;
+  line-height: 1.2;
+}

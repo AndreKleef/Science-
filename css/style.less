@@ -2888,7 +2888,104 @@ text {
 
 
 
+// ------------------- TRAINING --------------------//
 
+
+
+
+.option_training {
+
+  &__container:after {
+    left: 114px;
+}
+  
+  &__image {
+    width: 200px;
+    height: 250px;
+    margin-right: 50px;
+  }
+
+  &__content {
+    width: 50%;
+
+    &-button {
+      margin-top: 60px;
+    }
+  } 
+
+  &__item {
+
+    &:nth-child(2n+2):after {
+      top: 135px;
+      left: 99px;
+      width: 26%;
+      height: 5px;
+    }
+
+    &:nth-child(2n+2):not(:last-child):before {
+      top: 115px;
+      left: 99px;
+      width: 26%;
+      height: 5px;
+      padding-bottom: 17px;
+    }
+
+    &:nth-child(2n+2) {
+
+      & .option__image {
+        margin-right: 60px;
+      }
+    }
+  }
+}
+
+.as_form {
+
+  &__checkbox {
+    display: none;
+  }
+  
+  &__agree {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  &__checkbox-custom {
+    position: relative;
+    background: url(../img/dot_red_static.svg) no-repeat center / contain;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  &__checkbox:checked + &__checkbox-custom::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    background: url(../img/dot_red_active.svg) no-repeat center / contain;
+    cursor: pointer;
+  }
+  
+  &__checkbox-custom {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  &__check {
+    width: 87%;
+    font-size: 24px;
+    font-family: 'FuturaLightC', sans-serif;
+    color: #666;
+    line-height: 1.2;
+  }
+} 
 
 
 
