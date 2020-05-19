@@ -1457,6 +1457,9 @@ text {
 ::-webkit-resizer {
   background-color: #e7e7e7;
 }
+.photogallery__container {
+  margin-bottom: 20px;
+}
 .photogallery__item {
   width: 100%;
   height: 600px;
@@ -2331,4 +2334,45 @@ text {
   color: #7B3886;
   font-family: 'FuturaMediumC', sans-serif;
   margin-bottom: 25px;
+}
+.equipment {
+  margin-bottom: 80px;
+}
+.equipment-title {
+  font-size: 48px;
+  color: #666;
+  font-family: 'FuturaMediumC', sans-serif;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.equipment__block {
+  column-count: 2;
+  margin-bottom: 80px;
+}
+.equipment__item {
+  display: flex;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.equipment__image {
+  width: 127px;
+  height: 127px;
+  margin-right: 30px;
+}
+.equipment__image-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.equipment__content {
+  width: 75%;
+}
+.equipment__content-title {
+  font-size: 36px;
+  color: #7B3886;
+  font-family: 'FuturaMediumC', sans-serif;
+  margin-bottom: 10px;
+}
+.equipment__content-text {
+  line-height: 1.3;
 }
