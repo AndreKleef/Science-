@@ -150,27 +150,7 @@ document.body.onload = function()
 }
 
 
-let ringButton = document.querySelector('.page-header__ring_4'),
-    videoContent = document.querySelector('.wrapper'),
-    videoBlock = document.querySelector('.page-header_blockvideo');
 
-    circleButton = document.querySelector('.media__ring_1'),
-    backgroundBlock = document.querySelector('.media'),
-    fullpageBlock = document.querySelector('.fullpage'),
-    menuBurger = document.querySelector('.burger');
-
-ringButton.addEventListener('click', function() {
-  videoContent.classList.toggle('videoactive');
-});
-videoBlock.addEventListener('click', function() {
-  videoContent.classList.remove('videoactive');
-});
-
-circleButton.addEventListener('click', function() {
-  backgroundBlock.classList.toggle('backgroundHidden');
-  fullpageBlock.classList.toggle('fullpage_active');
-  menuBurger.classList.toggle('burger_active');
-});
 
 
 
@@ -378,3 +358,49 @@ var handleResize = function () {
 
 window.addEventListener('mousemove', handleMouseMove);
 window.addEventListener('resize', handleResize);
+
+
+let pageBurger = document.querySelector('.page-burger'),
+    navMenu = document.querySelector('.page-header_course'),
+    navTitle = document.querySelector('.page-header__preview_template'),
+    
+    ringButton = document.querySelector('.page-header__ring_4'),
+    videoContent = document.querySelector('.wrapper'),
+    videoBlock = document.querySelector('.page-header_blockvideo'),
+
+    circleButton = document.querySelector('.media__ring_1'),
+    backgroundBlock = document.querySelector('.media'),
+    fullpageBlock = document.querySelector('.fullpage'),
+    menuBurger = document.querySelector('.burger');
+
+
+if (!pageBurger) {
+  pageBurger = null;
+} else {
+  pageBurger.addEventListener('click', function() {
+    pageBurger.classList.toggle('page-burger_active');
+    navMenu.classList.toggle('page-header_course_active');
+    navTitle.classList.toggle('page-header__preview_template_active');
+  });
+};
+
+ringButton.addEventListener('click', function() {
+  videoContent.classList.toggle('videoactive');
+});
+videoBlock.addEventListener('click', function() {
+  videoContent.classList.remove('videoactive');
+});
+
+circleButton.addEventListener('click', function() {
+  backgroundBlock.classList.toggle('backgroundHidden');
+  fullpageBlock.classList.toggle('fullpage_active');
+  menuBurger.classList.toggle('burger_active');
+});
+
+circleButton.addEventListener('click', function() {
+  backgroundBlock.classList.toggle('backgroundHidden');
+  fullpageBlock.classList.toggle('fullpage_active');
+  menuBurger.classList.toggle('burger_active');
+});
+
+
