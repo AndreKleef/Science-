@@ -86,14 +86,26 @@ $(document).ready(function () {
     loop:true,
     nav:true,
     margin: 120,
-    stagePadding: 500,
     dots: true,
+    items: 1,
     touchDrag : true,
-    // autoplay:true,
-    // autoplayTimeout:8000,
     responsive:{
         0:{
-            items: 1
+          stagePadding: 0,
+          margin: 0,
+        },
+        741:{
+          stagePadding: 200,
+          margin: 60,
+        },
+        1081:{
+          stagePadding: 300,
+        },
+        1481:{
+          stagePadding: 400,
+        },
+        1881:{
+          stagePadding: 500,
         }
     }
   });
